@@ -1,0 +1,45 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:n="urn:import:medizin.client.a_nonroo.app.client">
+	<ui:style>
+		
+	</ui:style>
+
+	
+	  <g:DockLayoutPanel unit='PX'>
+	  
+   <g:north size='96'>
+  
+<g:SimplePanel ui:field="topPanel"></g:SimplePanel>
+ </g:north>
+
+  <g:center>
+    <g:SplitLayoutPanel ui:field="splitPanel">
+    <g:west size="250">
+    <g:SimplePanel ui:field='mcAppNav'></g:SimplePanel>
+     </g:west>
+     <g:center>
+<!--      	<n:McAppNav ui:field='mcAppNav'></n:McAppNav>-->
+      	<g:FlowPanel>
+	        <g:NotificationMole animationDuration='0' message='loading...' ui:field='mole'></g:NotificationMole>
+		        <g:SimplePanel ui:field='masterPanel'>
+		          <!-- The order of the children determines which way they slide -->
+		<!--          <e:ExpenseReportList />-->
+		
+		        </g:SimplePanel>
+     
+        </g:FlowPanel>
+    </g:center>
+    </g:SplitLayoutPanel>
+  </g:center>
+  
+  </g:DockLayoutPanel>
+	
+	
+	
+
+
+	
+
+</ui:UiBinder> 

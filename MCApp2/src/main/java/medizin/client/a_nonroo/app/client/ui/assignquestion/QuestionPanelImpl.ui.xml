@@ -1,0 +1,28 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.displayPanel{
+		background-color: #E6D8F2 ;
+		
+		padding: 5px;
+		position: absolute; 
+		width: 96%; 
+		min-height: 50px;
+
+	
+	}
+		.maxWidth{
+		width: 100%;
+		}
+	</ui:style>
+	
+		<g:HTMLPanel styleName="{style.maxWidth}">
+
+	
+	
+	<g:VerticalPanel ui:field="questionPanel" styleName="{style.displayPanel}">
+	
+	</g:VerticalPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

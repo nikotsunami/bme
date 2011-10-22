@@ -1,0 +1,129 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:b="urn:import:com.google.gwt.user.cellview.client">
+
+	<ui:style>
+		.panelHTML {
+		border: 0px solid #ddf;
+		height: 100%;
+		width: 100%;
+		}
+		.controls {
+		position: absolute;
+		left:0;
+		right:0;
+		top:3px;
+		height: 1em;
+		margin-left: 15px;
+		}
+
+		.controls table {
+		position:absolute;
+		right:0;
+		top:0;
+		}
+		.controls button {
+		display:inline;
+		}
+		.listView {
+		position: relative;
+		}
+		.scroll1 {
+		width: 100%;
+		}
+		.listView &gt; table {
+		
+		}
+		.listView &gt; table td {
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		cursor: pointer;
+		}
+
+
+		.button {
+	
+		float: right;
+		background: none;
+
+		cursor: pointer;
+		}
+
+		.header {
+			float: left;
+		padding: 3px;
+		color: #4B4A4A;
+		text-shadow: #ddf 1px 1px 0;
+	
+		background-color: #E6EDED;
+		font-size: 1.2em;
+		font-weight: bold;
+		widht: 100%
+
+		}
+
+		.headerLine {
+	
+		background-color: #E6EDED;
+		height: 25px;
+
+
+		}
+
+		.bar {
+		padding: 3px;
+
+		float: right;
+
+		background-color: #E6EDED;
+
+		}
+		.details {
+
+		border: 1px solid #E6EDED;
+		width: 100%;
+
+		}
+			.content {
+
+		padding: 5px;
+		
+
+		}
+	</ui:style>
+
+
+
+	<g:HTMLPanel>
+<div style="height:2em;" />
+		<table class="{style.details}" cellpadding="0" cellspacing="0">
+
+
+
+			<tr class="{style.headerLine}">
+				<td class="{style.header}">
+					<g:Button ui:field="newAccess"  addStyleNames="{style.button}">
+						<span class="ui-icon ui-icon-plusthick" style="float: left; margin-right: 0.3em;"></span>
+						neuer Zugriff über Themenblock
+					</g:Button>
+
+				</td>
+				<td class="{style.bar}">
+
+					<b:SimplePager display="{tableEvent}" location="RIGHT" />
+
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="{style.content}">
+					<div style="height:1em;" />
+					<b:CellTable pageSize="8" ui:field="tableEvent" width="100%" />
+				</td>
+			</tr>
+		</table>
+	</g:HTMLPanel>
+
+
+
+</ui:UiBinder> 

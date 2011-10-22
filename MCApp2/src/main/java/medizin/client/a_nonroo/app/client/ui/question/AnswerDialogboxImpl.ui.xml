@@ -1,0 +1,55 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+		xmlns:b="urn:import:com.google.gwt.user.cellview.client"
+		xmlns:a="urn:import:medizin.client.managed.ui"
+		xmlns:d="urn:import:com.google.gwt.user.datepicker.client" >
+	
+	<ui:style src="../../styles.css" />
+	
+	<g:HTMLPanel>
+
+
+     <table class="{style.fields}" id="boundElementHolder">
+     <tr id="text"><td colspan="2">
+   <g:SimplePanel ui:field="toolbarPanel" addStyleNames="{style.nav}"></g:SimplePanel>
+									<!-- <t:RichTextToolbar ui:field="toolbar" ></t:RichTextToolbar> -->
+									<g:RichTextArea ui:field="answerTextArea"  addStyleNames="{style.textarea}"></g:RichTextArea>
+									 </td>
+            </tr>
+      <tr id="rewiewer">
+                <td>
+                    <div class="{style.label}">Rewiewer:</div>
+                </td>
+                <td>
+                    <g:ValueListBox ui:field="rewiewer"/>
+                </td>
+            </tr>
+  
+
+     
+      <tr id="validity">
+                <td>
+                    <div class="{style.label}">Validity:</div>
+                </td>
+                <td>
+                    <g:ValueListBox ui:field="validity"/>
+                </td>
+            </tr>
+    <!--
+      <tr id="question">
+                <td>
+                    <div class="{style.label}">Question:</div>
+                </td>
+                <td>
+                    <g:ValueListBox ui:field="question"/>
+                </td>
+            </tr>
+    --></table>
+
+    <div class="{style.barPopup}">
+      <g:Button  addStyleNames="ui-button  ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary  {style.right}"  ui:field="save">Speichern</g:Button>
+      <g:Button  addStyleNames="ui-button  ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary {style.right}"  ui:field="closeButton">Abbrechen</g:Button>
+    </div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

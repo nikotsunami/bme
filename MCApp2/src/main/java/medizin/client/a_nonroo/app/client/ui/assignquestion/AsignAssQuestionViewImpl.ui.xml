@@ -1,0 +1,44 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:medizin.client.a_nonroo.app.client.ui.assignquestion">
+	<ui:style>
+	    .panelHTML {
+       border: 0px solid #ddf;
+       height: 100%;
+       width: 100%;
+     }
+	.panelLeft{
+ 		height: auto;
+ 		width: 100%;
+ 		padding: 5px;
+		
+	}
+	.panelRight{
+		height: auto;
+		width: 100%;
+		padding: 5px;
+	}
+
+		
+	</ui:style>
+
+		<g:SplitLayoutPanel ui:field="splitLayoutPanel"   styleName="{style.panelHTML}" >
+<g:west size="500">	
+<g:ScrollPanel>
+			<g:VerticalPanel styleName="{style.panelLeft}">
+				<m:AssesmentTabPanelImpl ui:field="assementTabPanel"></m:AssesmentTabPanelImpl>
+				<m:AssesmentQuestionPanelImpl ui:field="assementQuestionPanel"></m:AssesmentQuestionPanelImpl>				
+				
+			</g:VerticalPanel>
+			</g:ScrollPanel>
+			</g:west><g:center>
+			<g:ScrollPanel>
+			<g:VerticalPanel styleName="{style.panelRight}">
+				<m:AddQuestionsTabPanelImpl ui:field="addQuestionsTabPanel"></m:AddQuestionsTabPanelImpl>
+				<m:QuestionPanelImpl ui:field="questionPanel"></m:QuestionPanelImpl>
+			</g:VerticalPanel>
+				</g:ScrollPanel>	  </g:center>
+	</g:SplitLayoutPanel>
+
+</ui:UiBinder> 

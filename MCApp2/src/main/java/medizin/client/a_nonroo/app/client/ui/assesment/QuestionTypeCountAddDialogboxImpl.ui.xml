@@ -1,0 +1,66 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+		xmlns:b="urn:import:com.google.gwt.user.cellview.client"
+		xmlns:a="urn:import:medizin.client.managed.ui">
+	
+	<ui:style>
+    .panelHTML {
+       border: 0px solid #ddf;
+       height: 100%;
+       width: 100%;
+     }
+    .fields {
+      margin-top: 0.5em;
+      margin-left: 1em;
+    }
+    .label {
+      min-height: 25px;
+      font-weight: bold;
+    }
+    .button {
+      margin-right: 1em;
+    }
+    .bar {
+      margin-left: 1em;
+    }
+    .header {
+      margin-left: 1em;
+      color: #4B4A4A;
+      text-shadow: #ddf 1px 1px 0;
+      margin-bottom: 0;
+    }
+    .underline {
+      border-bottom: 2px solid #6F7277;
+    }
+	</ui:style>
+	<g:HTMLPanel>
+    <table class="{style.fields}" id="boundElementHolder">
+      
+      
+      
+    <tr id="questionTypesAssigned">
+                <td>
+                    <div class="{style.label}">Question Types Assigned:</div>
+                </td>
+                <td>
+                    <a:QuestionTypeSetEditor ui:field="questionTypesAssigned"/>
+                </td>
+            </tr>
+            <tr id="questionTypeCount">
+                <td>
+                    <div class="{style.label}">Question Type Count:</div>
+                </td>
+                <td>
+                    <g:IntegerBox ui:field="questionTypeCount"/>
+                </td>
+            </tr>
+      
+        </table>
+
+    <div class="{style.bar}">
+      <g:Button addStyleNames="{style.button}" ui:field="save">Speichern</g:Button>
+      <g:Button addStyleNames="{style.button}" ui:field="closeButton">Abbrechen</g:Button>
+    </div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

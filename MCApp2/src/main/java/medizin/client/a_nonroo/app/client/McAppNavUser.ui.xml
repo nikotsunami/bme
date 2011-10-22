@@ -1,0 +1,51 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+	<g:DisclosurePanel ui:field="systemOweviewPanel">
+		<g:header>Systemübersicht und Freischaltungen</g:header>
+		<g:VerticalPanel>
+			<g:Anchor ui:field="systemOverview">Systemübersicht</g:Anchor>
+	
+			<g:Anchor ui:field="acceptQuestion">Fragen akzeptieren</g:Anchor>
+			<g:Anchor ui:field="acceptAnswer">Antworten akzeptieren</g:Anchor>
+			<g:Anchor ui:field="acceptAssQuestion">Prüfungsfragen akzeptieren</g:Anchor>
+
+		</g:VerticalPanel>
+	</g:DisclosurePanel>
+
+	<g:DisclosurePanel ui:field="questionPanel">
+		<g:header>Fragenverwaltung</g:header>
+		<g:VerticalPanel>
+			<g:Anchor ui:field="question">Fragen</g:Anchor>
+
+		</g:VerticalPanel>
+	</g:DisclosurePanel>
+	<g:DisclosurePanel ui:field="assementPanel">
+		<g:header>Prüfungen verwalten</g:header>
+		<g:VerticalPanel>
+
+			<g:Anchor ui:field="asignAssQuestion">Prüfungsfragen zu Prüfung</g:Anchor>
+
+		</g:VerticalPanel>
+	</g:DisclosurePanel>
+	<div ui:field="deletethis"  >
+			<g:Anchor ui:field="acceptPerson">Personen akzeptieren</g:Anchor>
+						<g:Anchor ui:field="openDemand">Offene Anfragen</g:Anchor>
+							<g:DisclosurePanel ui:field="managementPanel">
+		<g:header>Benutzerverwaltung</g:header>
+		<g:VerticalPanel>
+			<g:Anchor ui:field="user">Benutzer und Berechtigungen</g:Anchor>
+		</g:VerticalPanel>
+	</g:DisclosurePanel>
+				<g:Anchor ui:field="questionType">Fragentypen</g:Anchor>
+			<g:Anchor ui:field="institution">Institutionen und Themenstrukturen</g:Anchor>
+						<g:Anchor ui:field="assesment">Prüfungen</g:Anchor>
+									<g:Anchor ui:field="bookAssesment">Prüfungsheft</g:Anchor>
+			<g:Anchor ui:field="staticContent">Statische Inhalte</g:Anchor>
+	</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

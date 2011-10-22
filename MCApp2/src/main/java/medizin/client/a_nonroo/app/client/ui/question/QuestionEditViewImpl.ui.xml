@@ -1,0 +1,118 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:n="urn:import:medizin.client.a_nonroo.app.client"
+	xmlns:d="urn:import:com.google.gwt.user.datepicker.client" xmlns:a="urn:import:medizin.client.managed.ui"
+	xmlns:r="urn:import:medizin.client.scaffold.ui" xmlns:t="urn:import:medizin.client.a_nonroo.app.client.richtext">
+	<ui:style src="../../styles.css" />
+		
+	<g:HTMLPanel>
+
+
+		<div class="{style.boundary}">
+			<table class="{style.details}" cellpadding="0" cellspacing="0">
+
+
+
+				<tr>
+					<td class="{style.header}">
+
+						<div class="{style.header}" visible="false" ui:field="editTitle">
+							<ui:msg>Frage bearbeiten</ui:msg>
+						</div>
+						<div class="{style.header}" visible="false" ui:field="createTitle">
+							<ui:msg>Neue Frage erstellen</ui:msg>
+						</div>
+
+					</td>
+					<td class="{style.bar}">
+						<div>
+
+							<g:Button addStyleNames="{style.button}" ui:field="save">
+								<span class="ui-icon ui-icon-disk" style="float: left; margin-right: 0.3em;"></span>
+								Frage speichern
+							</g:Button>
+							<g:Button addStyleNames="{style.button}" ui:field="cancel">
+								<span class="ui-icon ui-icon-closethick" style="float: left; margin-right: 0.3em;"></span>
+								Bearbeiten abbrechen
+							</g:Button>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table class="{style.fields}" id="boundElementHolder">
+							<tr id="questionText">
+								<td colspan="2">
+									<div class="{style.label}">Text der Frage:</div>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<g:SimplePanel ui:field="toolbarPanel" addStyleNames="{style.nav}"></g:SimplePanel>
+									<!-- <t:RichTextToolbar ui:field="toolbar" ></t:RichTextToolbar> -->
+									<g:RichTextArea ui:field="questionTextArea"  addStyleNames="{style.textarea}"></g:RichTextArea>
+
+
+								</td>
+							</tr>
+
+							<tr id="rewiewer">
+								<td>
+									<div class="{style.label}">Reviewer:</div>
+								</td>
+								<td>
+									<g:ValueListBox ui:field="rewiewer" />
+								</td>
+							</tr><!-- <tr id="picturePath"> <td> <div class="{style.label}">Picture 
+								Path:</div> </td> <td> <g:TextBox ui:field="picturePath"/> </td> </tr> -->
+							<tr id="questEvent">
+								<td>
+									<div class="{style.label}">Themenbereich:</div>
+								</td>
+								<td>
+									<g:ValueListBox ui:field="questEvent" />
+								</td>
+							</tr>
+
+							<tr id="questionType">
+								<td>
+									<div class="{style.label}">Fragetyp:</div>
+								</td>
+								<td>
+									<g:ValueListBox ui:field="questionType" />
+								</td>
+							</tr>
+							<tr id="mcs">
+								<td>
+									<div class="{style.label}">Mcs:</div>
+								</td>
+								<td>
+									<a:McSetEditor ui:field="mcs" />
+								</td>
+							</tr>
+
+
+
+						</table>
+					</td>
+				</tr>
+			</table>
+
+
+
+			<g:ValueListBox ui:field="autor" />
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

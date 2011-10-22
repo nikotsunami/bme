@@ -1,0 +1,34 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:n="urn:import:medizin.client.a_nonroo.app.client"
+	xmlns:b="urn:import:com.google.gwt.user.cellview.client">
+
+	<ui:style src="../../styles.css" />
+		
+
+	<g:SplitLayoutPanel styleName="{style.panelHTML}"
+		ui:field="splitLayoutPanel">
+		<g:west size="600">
+		<g:ScrollPanel>
+				<g:HTMLPanel styleName="{style.listView}">
+
+					<div style="height:3em;" />
+					<b:CellTable pageSize="8" ui:field="table" width="100%" />
+					<div class="{style.controls}">
+						<div>
+							<g:Button ui:field="newButton" addStyleNames="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"><span class="ui-icon ui-icon-plusthick" style="float: left; margin-right: 0.3em;"></span>neuer frage erstellen</g:Button>
+						</div>
+						<b:SimplePager display="{table}" location="RIGHT" />
+					</div>
+
+				</g:HTMLPanel>
+				</g:ScrollPanel>
+
+		</g:west>
+		<g:center>
+		<g:ScrollPanel>
+			<g:SimplePanel ui:field="detailsPanel"></g:SimplePanel>
+			</g:ScrollPanel>
+		</g:center>
+	</g:SplitLayoutPanel>
+</ui:UiBinder> 

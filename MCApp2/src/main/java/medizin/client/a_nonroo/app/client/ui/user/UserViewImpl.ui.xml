@@ -1,0 +1,81 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:n="urn:import:medizin.client.a_nonroo.app.client"
+	xmlns:b="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+		.panelHTML {
+		border: 0px solid #ddf;
+		position: absolute; 
+		left: 0px; 
+		top: 0px; 
+		right: 5px; 
+		bottom: 0px;
+		
+		}
+		.controls {
+		position: absolute;
+		left:0;
+		right:0;
+		top:3px;
+		height: 2em;
+		margin-left: 15px;
+		}
+
+		.controls table {
+		position:absolute;
+		right:0;
+		top:0;
+		}
+		.controls button {
+		display:inline;
+		
+		
+		
+		}
+		.listView {
+		position: relative;
+		padding-right: 5px;
+		}
+		.scroll1 {
+		width: 100%;
+		}
+		.listView &gt; table {
+		
+		}
+		.listView &gt; table td {
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		cursor: pointer;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+<g:SplitLayoutPanel  styleName="{style.panelHTML}" ui:field="splitLayoutPanel">
+<g:west size="400">	
+<g:ScrollPanel>
+				<g:HTMLPanel styleName="{style.listView}">
+
+					<div style="height:3em;" />
+					<b:CellTable pageSize="8" ui:field="table" width="100%" />
+					<div class="{style.controls}">
+						<div>
+							<g:Button ui:field="addInstitution" addStyleNames="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"><span class="ui-icon ui-icon-plusthick" style="float: left; margin-right: 0.3em;"></span>neuer Benutzer</g:Button>
+						</div>
+						<b:SimplePager display="{table}" location="RIGHT" />
+					</div>
+
+				</g:HTMLPanel>
+				</g:ScrollPanel>
+			</g:west>
+<g:center><g:ScrollPanel>
+
+				<g:SimplePanel ui:field="slidingPanel">
+
+				</g:SimplePanel>
+
+			</g:ScrollPanel></g:center>
+</g:SplitLayoutPanel>
+
+	
+</g:HTMLPanel>
+</ui:UiBinder> 

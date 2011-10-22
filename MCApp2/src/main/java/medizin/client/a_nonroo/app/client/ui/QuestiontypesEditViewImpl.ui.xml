@@ -1,0 +1,173 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:n="urn:import:medizin.client.a_nonroo.app.client">
+	<ui:style>
+   .panelHTML {
+		border: 0px solid #ddf;
+		height: 100%;
+		width: 100%;
+		}
+		.fields {
+		margin:
+		0.5em;
+		padding-right: 1em;
+		white-space:nowrap;
+        width: 100%;
+		}
+		.label {
+		min-height: 25px;
+		font-weight: bold;
+		}
+		.button {
+		margin-left: 0.5em;
+		float: right;
+		background: none;
+
+		cursor: pointer;
+		}
+
+		.header {
+		padding: 3px;
+		color: #4B4A4A;
+		text-shadow: #ddf 1px
+		1px 0;
+		margin-bottom: 0;
+		background-color: #E6EDED;
+		font-size: 1.2em;
+		font-weight: bold;
+
+		}
+		.underline {
+		border-bottom: 1px solid #6F7277;
+		}
+		.boundary{
+		padding-left: 10px;
+		padding-right: 10px;
+		}
+
+		.bar {
+		padding: 3px;
+
+
+		background-color: #E6EDED;
+
+		}
+		.details {
+
+		border: 1px solid #E6EDED;
+		width:
+		100%;
+
+		}
+				.nav {
+
+		border: 1px solid #E6EDED;
+		width: 100%;
+		background: #e3e8f3 url(images/hborder.png) repeat-x 0px -2003px;
+		
+
+		}
+				.textarea {
+
+		border: 1px solid #E6EDED;
+		width:
+		100%;
+
+		}
+	</ui:style>
+  <g:HTMLPanel>
+  
+  	<div class="{style.boundary}">
+			<table class="{style.details}" cellpadding="0" cellspacing="0">
+
+
+
+				<tr>
+					<td class="{style.header}">
+
+						<div class="{style.header}" visible="false" ui:field="editTitle">
+							<ui:msg>Fragetyp bearbeiten</ui:msg>
+						</div>
+						<div class="{style.header}" visible="false" ui:field="createTitle">
+							<ui:msg>Neuen Fragetyp erstellen</ui:msg>
+						</div>
+
+					</td>
+					<td class="{style.bar}">
+						<div>
+
+							<g:Button addStyleNames="{style.button}" ui:field="save">
+								<span class="ui-icon ui-icon-disk" style="float: left; margin-right: 0.3em;"></span>
+								Fragetyp speichern
+							</g:Button>
+							<g:Button addStyleNames="{style.button}" ui:field="cancel">
+								<span class="ui-icon ui-icon-closethick" style="float: left; margin-right: 0.3em;"></span>
+								Bearbeiten abbrechen
+							</g:Button>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						 <table class="{style.fields}" id="boundElementHolder">
+						      <tr id="questionTypeName">
+						                <td>
+						                    <div class="{style.label}">Question Type Name:</div>
+						                </td>
+						                <td>
+						                    <g:TextBox ui:field="questionTypeName"/>
+						                </td>
+						            </tr>
+						      <tr id="isWeil">
+						                <td>
+						                    <div class="{style.label}">Is Weil:</div>
+						                </td>
+						                <td>
+						                    <g:CheckBox ui:field="isWeil"/>
+						                </td>
+						            </tr>
+						      <tr id="trueAnswers">
+						                <td>
+						                    <div class="{style.label}">True Answers:</div>
+						                </td>
+						                <td>
+						                    <g:IntegerBox ui:field="trueAnswers"/>
+						                </td>
+						            </tr>
+						      <tr id="falseAnswers">
+						                <td>
+						                    <div class="{style.label}">False Answers:</div>
+						                </td>
+						                <td>
+						                    <g:IntegerBox ui:field="falseAnswers"/>
+						                </td>
+						            </tr>
+						      <tr id="sumAnswers">
+						                <td>
+						                    <div class="{style.label}">Sum Answers:</div>
+						                </td>
+						                <td>
+						                    <g:IntegerBox ui:field="sumAnswers"/>
+						                </td>
+						            </tr>
+						      <tr id="maxLetters">
+						                <td>
+						                    <div class="{style.label}">Max Letters:</div>
+						                </td>
+						                <td>
+						                    <g:IntegerBox ui:field="maxLetters"/>
+						                </td>
+						            </tr>
+						    </table>
+					</td>
+				</tr>
+			</table>
+
+		</div>
+
+
+
+  </g:HTMLPanel>
+</ui:UiBinder> 

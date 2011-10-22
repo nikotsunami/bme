@@ -1,0 +1,15 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:n="urn:import:medizin.client.a_nonroo.app.client">
+	<ui:style>
+    .panelHTML {
+       border: 0px solid #ddf;
+       height: 100%;
+       width: 100%;
+     }
+	</ui:style>
+	<n:SlidingPanel styleName='{style.panelHTML}' ui:field="slidingPanel">
+	<g:Label>Open Demand</g:Label>
+	</n:SlidingPanel>
+</ui:UiBinder> 

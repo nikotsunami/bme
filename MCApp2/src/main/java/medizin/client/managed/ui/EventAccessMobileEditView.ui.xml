@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:a="urn:import:medizin.client.managed.ui" xmlns:d="urn:import:com.google.gwt.user.datepicker.client" xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:r="urn:import:medizin.client.scaffold.ui">
+  <ui:style>
+    .outer {
+      padding: 10px;
+    }
+    .error {
+      padding-left: 0.5em;
+      background-color: red;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .value {
+      padding-bottom: 10px;
+    }
+  </ui:style>
+ 
+  <g:HTMLPanel id="boundElementHolder" styleName="{style.outer}">
+    <div class="{style.error}" ui:field="errors"/>
+    
+    <div id="accRights">
+            <div class="{style.label}">Acc Rights</div>
+            <div class="{style.value}">
+                <g:ValueListBox ui:field="accRights"/>
+            </div>
+        </div>
+    <div id="person">
+            <div class="{style.label}">Person</div>
+            <div class="{style.value}">
+                <g:ValueListBox ui:field="person"/>
+            </div>
+        </div>
+    <div id="question">
+            <div class="{style.label}">Question</div>
+            <div class="{style.value}">
+                <g:ValueListBox ui:field="question"/>
+            </div>
+        </div>
+    <div id="questionEvent">
+            <div class="{style.label}">Question Event</div>
+            <div class="{style.value}">
+                <g:ValueListBox ui:field="questionEvent"/>
+            </div>
+        </div>
+
+    <g:Button ui:field="save">Save</g:Button>
+  </g:HTMLPanel>
+</ui:UiBinder>

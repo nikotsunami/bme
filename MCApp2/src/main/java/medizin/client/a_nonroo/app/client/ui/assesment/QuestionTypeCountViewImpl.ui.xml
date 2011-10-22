@@ -1,0 +1,44 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 	
+	xmlns:b="urn:import:com.google.gwt.user.cellview.client">
+	
+	<ui:style src="../../styles.css" />
+   
+	
+ 		<g:ScrollPanel>
+
+		  <g:HTMLPanel>
+		  
+		  	<div style="height:2em;" />
+		<table class="{style.details}" cellpadding="0" cellspacing="0">
+
+
+
+			<tr class="{style.headerLine}">
+				<td class="{style.header}">
+					<g:Button ui:field="newQuestionTypeCount" addStyleNames="{style.buttonDetailsList}">
+						<span class="ui-icon ui-icon-plusthick" style="float: left; margin-right: 0.3em;"></span>
+						neue Fragenanteile erfassen
+					</g:Button>
+				</td>
+				<td class="{style.barDetailsList}">
+					<b:SimplePager display="{tableQuestionTypeCount}" location="RIGHT" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="{style.content}">
+					<div style="height:1em;" />
+
+					<b:CellTable pageSize="8" ui:field="tableQuestionTypeCount" width="100%" />
+
+				</td>
+			</tr>
+		</table>
+
+
+		    		    </g:HTMLPanel>
+		 
+
+		  </g:ScrollPanel>
+</ui:UiBinder> 

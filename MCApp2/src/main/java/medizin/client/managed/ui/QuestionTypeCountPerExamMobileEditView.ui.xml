@@ -1,0 +1,33 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:d='urn:import:com.google.gwt.user.datepicker.client'
+  xmlns:r='urn:import:medizin.client.scaffold.ui'
+  xmlns:a='urn:import:medizin.client.managed.ui'>
+  <ui:style>
+    .outer {
+      padding: 10px;
+    }
+    .error {
+      padding-left: 0.5em;
+      background-color: red;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .value {
+      padding-bottom: 10px;
+    }
+  </ui:style>
+ 
+  <g:HTMLPanel id="boundElementHolder" styleName='{style.outer}'>
+    <div ui:field='errors' class='{style.error}'></div>
+    
+    <div id='questionTypesAssigned'><div class='{style.label}'>Question Types Assigned</div><div class='{style.value}'><a:QuestionTypeSetEditor ui:field='questionTypesAssigned'/></div></div>
+    <div id='assesment'><div class='{style.label}'>Assesment</div><div class='{style.value}'><g:ValueListBox ui:field='assesment'/></div></div>
+    <div id='questionTypeCount'><div class='{style.label}'>Question Type Count</div><div class='{style.value}'><g:IntegerBox ui:field='questionTypeCount'/></div></div>
+    <div id='sort_order'><div class='{style.label}'>Sort_order</div><div class='{style.value}'><g:IntegerBox ui:field='sort_order'/></div></div>
+
+    <g:Button ui:field='save'>Save</g:Button>
+  </g:HTMLPanel>
+</ui:UiBinder>

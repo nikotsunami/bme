@@ -1,0 +1,676 @@
+package medizin.client.managed.request;
+
+public class QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory extends com.google.gwt.autobean.shared.impl.AbstractAutoBean<medizin.client.managed.request.QuestionProxy> {
+  private final medizin.client.managed.request.QuestionProxy shim = new medizin.client.managed.request.QuestionProxy() {
+    public java.lang.Boolean getIsAcceptedAdmin()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.lang.Boolean toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getIsAcceptedAdmin", getWrapped().getIsAcceptedAdmin());
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.lang.Boolean getIsAcceptedRewiever()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.lang.Boolean toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getIsAcceptedRewiever", getWrapped().getIsAcceptedRewiever());
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.lang.Boolean getIsActive()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.lang.Boolean toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getIsActive", getWrapped().getIsActive());
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.lang.Double getQuestionVersion()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.lang.Double toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getQuestionVersion", getWrapped().getQuestionVersion());
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.lang.Integer getVersion()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.lang.Integer toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getVersion", getWrapped().getVersion());
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.lang.Long getId()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.lang.Long toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getId", getWrapped().getId());
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.lang.String getPicturePath()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.lang.String toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getPicturePath", getWrapped().getPicturePath());
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.lang.String getQuestionText()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.lang.String toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getQuestionText", getWrapped().getQuestionText());
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.util.Date getDateAdded()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.util.Date toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getDateAdded", getWrapped().getDateAdded());
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.util.Date getDateChanged()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.util.Date toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getDateChanged", getWrapped().getDateChanged());
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.util.Set getAnswers()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.util.Set toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getAnswers", getWrapped().getAnswers());
+      if (toReturn != null) {
+        if (QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.isWrapped(toReturn)) {
+          toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getFromWrapper(toReturn);
+        } else {
+          toReturn = new emul.java.util.SetAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(getFactory(), toReturn).as();
+        }
+      }
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.util.Set getKeywords()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.util.Set toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getKeywords", getWrapped().getKeywords());
+      if (toReturn != null) {
+        if (QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.isWrapped(toReturn)) {
+          toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getFromWrapper(toReturn);
+        } else {
+          toReturn = new emul.java.util.SetAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(getFactory(), toReturn).as();
+        }
+      }
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public java.util.Set getMcs()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      java.util.Set toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getMcs", getWrapped().getMcs());
+      if (toReturn != null) {
+        if (QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.isWrapped(toReturn)) {
+          toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getFromWrapper(toReturn);
+        } else {
+          toReturn = new emul.java.util.SetAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(getFactory(), toReturn).as();
+        }
+      }
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public medizin.client.managed.request.CommentProxy getComment()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      medizin.client.managed.request.CommentProxy toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getComment", getWrapped().getComment());
+      if (toReturn != null) {
+        if (QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.isWrapped(toReturn)) {
+          toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getFromWrapper(toReturn);
+        } else {
+          toReturn = new medizin.client.managed.request.CommentProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(getFactory(), toReturn).as();
+        }
+      }
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public medizin.client.managed.request.PersonProxy getAutor()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      medizin.client.managed.request.PersonProxy toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getAutor", getWrapped().getAutor());
+      if (toReturn != null) {
+        if (QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.isWrapped(toReturn)) {
+          toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getFromWrapper(toReturn);
+        } else {
+          toReturn = new medizin.client.managed.request.PersonProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(getFactory(), toReturn).as();
+        }
+      }
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public medizin.client.managed.request.PersonProxy getRewiewer()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      medizin.client.managed.request.PersonProxy toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getRewiewer", getWrapped().getRewiewer());
+      if (toReturn != null) {
+        if (QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.isWrapped(toReturn)) {
+          toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getFromWrapper(toReturn);
+        } else {
+          toReturn = new medizin.client.managed.request.PersonProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(getFactory(), toReturn).as();
+        }
+      }
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public medizin.client.managed.request.QuestionEventProxy getQuestEvent()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      medizin.client.managed.request.QuestionEventProxy toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getQuestEvent", getWrapped().getQuestEvent());
+      if (toReturn != null) {
+        if (QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.isWrapped(toReturn)) {
+          toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getFromWrapper(toReturn);
+        } else {
+          toReturn = new medizin.client.managed.request.QuestionEventProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(getFactory(), toReturn).as();
+        }
+      }
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public medizin.client.managed.request.QuestionProxy getPreviousVersion()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      medizin.client.managed.request.QuestionProxy toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getPreviousVersion", getWrapped().getPreviousVersion());
+      if (toReturn != null) {
+        if (QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.isWrapped(toReturn)) {
+          toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getFromWrapper(toReturn);
+        } else {
+          toReturn = new medizin.client.managed.request.QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(getFactory(), toReturn).as();
+        }
+      }
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public medizin.client.managed.request.QuestionTypeProxy getQuestionType()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      medizin.client.managed.request.QuestionTypeProxy toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.get("getQuestionType", getWrapped().getQuestionType());
+      if (toReturn != null) {
+        if (QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.isWrapped(toReturn)) {
+          toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getFromWrapper(toReturn);
+        } else {
+          toReturn = new medizin.client.managed.request.QuestionTypeProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(getFactory(), toReturn).as();
+        }
+      }
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      return toReturn;
+    }
+    public void setAnswers(java.util.Set answers)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setAnswers(answers);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setAnswers", answers);
+    }
+    public void setAutor(medizin.client.managed.request.PersonProxy autor)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setAutor(autor);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setAutor", autor);
+    }
+    public void setComment(medizin.client.managed.request.CommentProxy comment)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setComment(comment);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setComment", comment);
+    }
+    public void setDateAdded(java.util.Date dateAdded)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setDateAdded(dateAdded);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setDateAdded", dateAdded);
+    }
+    public void setDateChanged(java.util.Date dateChanged)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setDateChanged(dateChanged);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setDateChanged", dateChanged);
+    }
+    public void setId(java.lang.Long id)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setId(id);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setId", id);
+    }
+    public void setIsAcceptedAdmin(java.lang.Boolean isAcceptedAdmin)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setIsAcceptedAdmin(isAcceptedAdmin);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setIsAcceptedAdmin", isAcceptedAdmin);
+    }
+    public void setIsAcceptedRewiever(java.lang.Boolean isAcceptedRewiever)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setIsAcceptedRewiever(isAcceptedRewiever);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setIsAcceptedRewiever", isAcceptedRewiever);
+    }
+    public void setIsActive(java.lang.Boolean isActive)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setIsActive(isActive);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setIsActive", isActive);
+    }
+    public void setKeywords(java.util.Set keywords)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setKeywords(keywords);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setKeywords", keywords);
+    }
+    public void setMcs(java.util.Set mcs)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setMcs(mcs);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setMcs", mcs);
+    }
+    public void setPicturePath(java.lang.String picturePath)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setPicturePath(picturePath);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setPicturePath", picturePath);
+    }
+    public void setPreviousVersion(medizin.client.managed.request.QuestionProxy previousVersion)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setPreviousVersion(previousVersion);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setPreviousVersion", previousVersion);
+    }
+    public void setQuestEvent(medizin.client.managed.request.QuestionEventProxy questEvent)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setQuestEvent(questEvent);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setQuestEvent", questEvent);
+    }
+    public void setQuestionText(java.lang.String questionText)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setQuestionText(questionText);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setQuestionText", questionText);
+    }
+    public void setQuestionType(medizin.client.managed.request.QuestionTypeProxy questionType)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setQuestionType(questionType);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setQuestionType", questionType);
+    }
+    public void setQuestionVersion(java.lang.Double questionVersion)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setQuestionVersion(questionVersion);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setQuestionVersion", questionVersion);
+    }
+    public void setRewiewer(medizin.client.managed.request.PersonProxy rewiewer)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setRewiewer(rewiewer);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setRewiewer", rewiewer);
+    }
+    public void setVersion(java.lang.Integer version)  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkFrozen();
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().setVersion(version);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.set("setVersion", version);
+    }
+    public com.google.gwt.requestfactory.shared.EntityProxyId stableId()  {
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.checkWrapped();
+      com.google.gwt.requestfactory.shared.EntityProxyId toReturn = QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.getWrapped().stableId();
+      toReturn = com.google.gwt.requestfactory.shared.impl.BaseProxyCategory.__intercept(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, toReturn);
+      QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this.call("stableId", toReturn );
+      return toReturn;
+    }
+    @Override public boolean equals(Object o) {
+      return this == o || getWrapped().equals(o);
+    }
+    @Override public int hashCode() {
+      return getWrapped().hashCode();
+    }
+    @Override public String toString() {
+      return getWrapped().toString();
+    }
+  };
+  { com.google.gwt.core.client.impl.WeakMapping.set(shim, com.google.gwt.autobean.shared.AutoBean.class.getName(), this); }
+  public QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(com.google.gwt.autobean.shared.AutoBeanFactory factory) {super(factory);}
+  public QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory toClone, boolean deep) {
+    super(toClone, deep);
+  }
+  public QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(com.google.gwt.autobean.shared.AutoBeanFactory factory, medizin.client.managed.request.QuestionProxy wrapped) {
+    super(factory, wrapped);
+  }
+  public medizin.client.managed.request.QuestionProxy as() {return shim;}
+  public medizin.client.managed.request.QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory clone(boolean deep) {
+    return new QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory(this, deep);
+  }
+  public Class<medizin.client.managed.request.QuestionProxy> getType() {return medizin.client.managed.request.QuestionProxy.class;}
+  @Override protected medizin.client.managed.request.QuestionProxy createSimplePeer() {
+    return new medizin.client.managed.request.QuestionProxy() {
+      public java.lang.Boolean getIsAcceptedAdmin()  {
+        return (java.lang.Boolean) values.get("isAcceptedAdmin");
+      }
+      public java.lang.Boolean getIsAcceptedRewiever()  {
+        return (java.lang.Boolean) values.get("isAcceptedRewiever");
+      }
+      public java.lang.Boolean getIsActive()  {
+        return (java.lang.Boolean) values.get("isActive");
+      }
+      public java.lang.Double getQuestionVersion()  {
+        return (java.lang.Double) values.get("questionVersion");
+      }
+      public java.lang.Integer getVersion()  {
+        return (java.lang.Integer) values.get("version");
+      }
+      public java.lang.Long getId()  {
+        return (java.lang.Long) values.get("id");
+      }
+      public java.lang.String getPicturePath()  {
+        return (java.lang.String) values.get("picturePath");
+      }
+      public java.lang.String getQuestionText()  {
+        return (java.lang.String) values.get("questionText");
+      }
+      public java.util.Date getDateAdded()  {
+        return (java.util.Date) values.get("dateAdded");
+      }
+      public java.util.Date getDateChanged()  {
+        return (java.util.Date) values.get("dateChanged");
+      }
+      public java.util.Set getAnswers()  {
+        return (java.util.Set) values.get("answers");
+      }
+      public java.util.Set getKeywords()  {
+        return (java.util.Set) values.get("keywords");
+      }
+      public java.util.Set getMcs()  {
+        return (java.util.Set) values.get("mcs");
+      }
+      public medizin.client.managed.request.CommentProxy getComment()  {
+        return (medizin.client.managed.request.CommentProxy) values.get("comment");
+      }
+      public medizin.client.managed.request.PersonProxy getAutor()  {
+        return (medizin.client.managed.request.PersonProxy) values.get("autor");
+      }
+      public medizin.client.managed.request.PersonProxy getRewiewer()  {
+        return (medizin.client.managed.request.PersonProxy) values.get("rewiewer");
+      }
+      public medizin.client.managed.request.QuestionEventProxy getQuestEvent()  {
+        return (medizin.client.managed.request.QuestionEventProxy) values.get("questEvent");
+      }
+      public medizin.client.managed.request.QuestionProxy getPreviousVersion()  {
+        return (medizin.client.managed.request.QuestionProxy) values.get("previousVersion");
+      }
+      public medizin.client.managed.request.QuestionTypeProxy getQuestionType()  {
+        return (medizin.client.managed.request.QuestionTypeProxy) values.get("questionType");
+      }
+      public void setAnswers(java.util.Set answers)  {
+        values.put("answers", answers);
+      }
+      public void setAutor(medizin.client.managed.request.PersonProxy autor)  {
+        values.put("autor", autor);
+      }
+      public void setComment(medizin.client.managed.request.CommentProxy comment)  {
+        values.put("comment", comment);
+      }
+      public void setDateAdded(java.util.Date dateAdded)  {
+        values.put("dateAdded", dateAdded);
+      }
+      public void setDateChanged(java.util.Date dateChanged)  {
+        values.put("dateChanged", dateChanged);
+      }
+      public void setId(java.lang.Long id)  {
+        values.put("id", id);
+      }
+      public void setIsAcceptedAdmin(java.lang.Boolean isAcceptedAdmin)  {
+        values.put("isAcceptedAdmin", isAcceptedAdmin);
+      }
+      public void setIsAcceptedRewiever(java.lang.Boolean isAcceptedRewiever)  {
+        values.put("isAcceptedRewiever", isAcceptedRewiever);
+      }
+      public void setIsActive(java.lang.Boolean isActive)  {
+        values.put("isActive", isActive);
+      }
+      public void setKeywords(java.util.Set keywords)  {
+        values.put("keywords", keywords);
+      }
+      public void setMcs(java.util.Set mcs)  {
+        values.put("mcs", mcs);
+      }
+      public void setPicturePath(java.lang.String picturePath)  {
+        values.put("picturePath", picturePath);
+      }
+      public void setPreviousVersion(medizin.client.managed.request.QuestionProxy previousVersion)  {
+        values.put("previousVersion", previousVersion);
+      }
+      public void setQuestEvent(medizin.client.managed.request.QuestionEventProxy questEvent)  {
+        values.put("questEvent", questEvent);
+      }
+      public void setQuestionText(java.lang.String questionText)  {
+        values.put("questionText", questionText);
+      }
+      public void setQuestionType(medizin.client.managed.request.QuestionTypeProxy questionType)  {
+        values.put("questionType", questionType);
+      }
+      public void setQuestionVersion(java.lang.Double questionVersion)  {
+        values.put("questionVersion", questionVersion);
+      }
+      public void setRewiewer(medizin.client.managed.request.PersonProxy rewiewer)  {
+        values.put("rewiewer", rewiewer);
+      }
+      public void setVersion(java.lang.Integer version)  {
+        values.put("version", version);
+      }
+      public com.google.gwt.requestfactory.shared.EntityProxyId stableId()  {
+        return com.google.gwt.requestfactory.shared.impl.EntityProxyCategory.stableId(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this);
+      }
+      public boolean equals(java.lang.Object other)  {
+        return com.google.gwt.requestfactory.shared.impl.EntityProxyCategory.equals(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this, other);
+      }
+      public int hashCode()  {
+        return com.google.gwt.requestfactory.shared.impl.EntityProxyCategory.hashCode(QuestionProxyAutoBean_com_google_gwt_requestfactory_shared_impl_EntityProxyCategory_com_google_gwt_requestfactory_shared_impl_ValueProxyCategory_com_google_gwt_requestfactory_shared_impl_BaseProxyCategory.this);
+      }
+    };
+  }
+  @Override protected void traverseProperties(com.google.gwt.autobean.shared.AutoBeanVisitor visitor, com.google.gwt.autobean.shared.impl.AbstractAutoBean.OneShotContext ctx) {
+    class _isAcceptedAdminPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return java.lang.Boolean.class; }
+      public void set(Object obj) { 
+        values.put("isAcceptedAdmin", obj);
+      }
+    }
+    {_isAcceptedAdminPropertyContext _isAcceptedAdminPropertyContext = new _isAcceptedAdminPropertyContext();
+      Object value = as().getIsAcceptedAdmin();
+      if (visitor.visitValueProperty("isAcceptedAdmin", value, _isAcceptedAdminPropertyContext))
+      visitor.endVisitValueProperty("isAcceptedAdmin", value, _isAcceptedAdminPropertyContext);
+    }class _isAcceptedRewieverPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return java.lang.Boolean.class; }
+      public void set(Object obj) { 
+        values.put("isAcceptedRewiever", obj);
+      }
+    }
+    {_isAcceptedRewieverPropertyContext _isAcceptedRewieverPropertyContext = new _isAcceptedRewieverPropertyContext();
+      Object value = as().getIsAcceptedRewiever();
+      if (visitor.visitValueProperty("isAcceptedRewiever", value, _isAcceptedRewieverPropertyContext))
+      visitor.endVisitValueProperty("isAcceptedRewiever", value, _isAcceptedRewieverPropertyContext);
+    }class _isActivePropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return java.lang.Boolean.class; }
+      public void set(Object obj) { 
+        values.put("isActive", obj);
+      }
+    }
+    {_isActivePropertyContext _isActivePropertyContext = new _isActivePropertyContext();
+      Object value = as().getIsActive();
+      if (visitor.visitValueProperty("isActive", value, _isActivePropertyContext))
+      visitor.endVisitValueProperty("isActive", value, _isActivePropertyContext);
+    }class _questionVersionPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return java.lang.Double.class; }
+      public void set(Object obj) { 
+        values.put("questionVersion", obj);
+      }
+    }
+    {_questionVersionPropertyContext _questionVersionPropertyContext = new _questionVersionPropertyContext();
+      Object value = as().getQuestionVersion();
+      if (visitor.visitValueProperty("questionVersion", value, _questionVersionPropertyContext))
+      visitor.endVisitValueProperty("questionVersion", value, _questionVersionPropertyContext);
+    }class _versionPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return java.lang.Integer.class; }
+      public void set(Object obj) { 
+        values.put("version", obj);
+      }
+    }
+    {_versionPropertyContext _versionPropertyContext = new _versionPropertyContext();
+      Object value = as().getVersion();
+      if (visitor.visitValueProperty("version", value, _versionPropertyContext))
+      visitor.endVisitValueProperty("version", value, _versionPropertyContext);
+    }class _idPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return java.lang.Long.class; }
+      public void set(Object obj) { 
+        values.put("id", obj);
+      }
+    }
+    {_idPropertyContext _idPropertyContext = new _idPropertyContext();
+      Object value = as().getId();
+      if (visitor.visitValueProperty("id", value, _idPropertyContext))
+      visitor.endVisitValueProperty("id", value, _idPropertyContext);
+    }class _picturePathPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return java.lang.String.class; }
+      public void set(Object obj) { 
+        values.put("picturePath", obj);
+      }
+    }
+    {_picturePathPropertyContext _picturePathPropertyContext = new _picturePathPropertyContext();
+      Object value = as().getPicturePath();
+      if (visitor.visitValueProperty("picturePath", value, _picturePathPropertyContext))
+      visitor.endVisitValueProperty("picturePath", value, _picturePathPropertyContext);
+    }class _questionTextPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return java.lang.String.class; }
+      public void set(Object obj) { 
+        values.put("questionText", obj);
+      }
+    }
+    {_questionTextPropertyContext _questionTextPropertyContext = new _questionTextPropertyContext();
+      Object value = as().getQuestionText();
+      if (visitor.visitValueProperty("questionText", value, _questionTextPropertyContext))
+      visitor.endVisitValueProperty("questionText", value, _questionTextPropertyContext);
+    }class _dateAddedPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return java.util.Date.class; }
+      public void set(Object obj) { 
+        values.put("dateAdded", obj);
+      }
+    }
+    {_dateAddedPropertyContext _dateAddedPropertyContext = new _dateAddedPropertyContext();
+      Object value = as().getDateAdded();
+      if (visitor.visitValueProperty("dateAdded", value, _dateAddedPropertyContext))
+      visitor.endVisitValueProperty("dateAdded", value, _dateAddedPropertyContext);
+    }class _dateChangedPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return java.util.Date.class; }
+      public void set(Object obj) { 
+        values.put("dateChanged", obj);
+      }
+    }
+    {_dateChangedPropertyContext _dateChangedPropertyContext = new _dateChangedPropertyContext();
+      Object value = as().getDateChanged();
+      if (visitor.visitValueProperty("dateChanged", value, _dateChangedPropertyContext))
+      visitor.endVisitValueProperty("dateChanged", value, _dateChangedPropertyContext);
+    }class _answersPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.CollectionPropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getElementType() { return medizin.client.managed.request.AnswerProxy.class; }
+      public Class<?> getType() { return java.util.Set.class; }
+      public void set(Object obj) { 
+        values.put("answers", obj);
+      }
+    }
+    {_answersPropertyContext _answersPropertyContext = new _answersPropertyContext();
+      com.google.gwt.autobean.shared.impl.AbstractAutoBean value = (com.google.gwt.autobean.shared.impl.AbstractAutoBean) com.google.gwt.autobean.shared.AutoBeanUtils.getAutoBean(as().getAnswers());
+      if (visitor.visitCollectionProperty("answers", value, _answersPropertyContext))
+        if (value != null) { value.traverse(visitor, ctx); }
+      visitor.endVisitCollectionProperty("answers", value, _answersPropertyContext);
+    }class _keywordsPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.CollectionPropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getElementType() { return medizin.client.managed.request.KeywordProxy.class; }
+      public Class<?> getType() { return java.util.Set.class; }
+      public void set(Object obj) { 
+        values.put("keywords", obj);
+      }
+    }
+    {_keywordsPropertyContext _keywordsPropertyContext = new _keywordsPropertyContext();
+      com.google.gwt.autobean.shared.impl.AbstractAutoBean value = (com.google.gwt.autobean.shared.impl.AbstractAutoBean) com.google.gwt.autobean.shared.AutoBeanUtils.getAutoBean(as().getKeywords());
+      if (visitor.visitCollectionProperty("keywords", value, _keywordsPropertyContext))
+        if (value != null) { value.traverse(visitor, ctx); }
+      visitor.endVisitCollectionProperty("keywords", value, _keywordsPropertyContext);
+    }class _mcsPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.CollectionPropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getElementType() { return medizin.client.managed.request.McProxy.class; }
+      public Class<?> getType() { return java.util.Set.class; }
+      public void set(Object obj) { 
+        values.put("mcs", obj);
+      }
+    }
+    {_mcsPropertyContext _mcsPropertyContext = new _mcsPropertyContext();
+      com.google.gwt.autobean.shared.impl.AbstractAutoBean value = (com.google.gwt.autobean.shared.impl.AbstractAutoBean) com.google.gwt.autobean.shared.AutoBeanUtils.getAutoBean(as().getMcs());
+      if (visitor.visitCollectionProperty("mcs", value, _mcsPropertyContext))
+        if (value != null) { value.traverse(visitor, ctx); }
+      visitor.endVisitCollectionProperty("mcs", value, _mcsPropertyContext);
+    }class _commentPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return medizin.client.managed.request.CommentProxy.class; }
+      public void set(Object obj) { 
+        values.put("comment", obj);
+      }
+    }
+    {_commentPropertyContext _commentPropertyContext = new _commentPropertyContext();
+      com.google.gwt.autobean.shared.impl.AbstractAutoBean value = (com.google.gwt.autobean.shared.impl.AbstractAutoBean) com.google.gwt.autobean.shared.AutoBeanUtils.getAutoBean(as().getComment());
+      if (visitor.visitReferenceProperty("comment", value, _commentPropertyContext))
+        if (value != null) { value.traverse(visitor, ctx); }
+      visitor.endVisitReferenceProperty("comment", value, _commentPropertyContext);
+    }class _autorPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return medizin.client.managed.request.PersonProxy.class; }
+      public void set(Object obj) { 
+        values.put("autor", obj);
+      }
+    }
+    {_autorPropertyContext _autorPropertyContext = new _autorPropertyContext();
+      com.google.gwt.autobean.shared.impl.AbstractAutoBean value = (com.google.gwt.autobean.shared.impl.AbstractAutoBean) com.google.gwt.autobean.shared.AutoBeanUtils.getAutoBean(as().getAutor());
+      if (visitor.visitReferenceProperty("autor", value, _autorPropertyContext))
+        if (value != null) { value.traverse(visitor, ctx); }
+      visitor.endVisitReferenceProperty("autor", value, _autorPropertyContext);
+    }class _rewiewerPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return medizin.client.managed.request.PersonProxy.class; }
+      public void set(Object obj) { 
+        values.put("rewiewer", obj);
+      }
+    }
+    {_rewiewerPropertyContext _rewiewerPropertyContext = new _rewiewerPropertyContext();
+      com.google.gwt.autobean.shared.impl.AbstractAutoBean value = (com.google.gwt.autobean.shared.impl.AbstractAutoBean) com.google.gwt.autobean.shared.AutoBeanUtils.getAutoBean(as().getRewiewer());
+      if (visitor.visitReferenceProperty("rewiewer", value, _rewiewerPropertyContext))
+        if (value != null) { value.traverse(visitor, ctx); }
+      visitor.endVisitReferenceProperty("rewiewer", value, _rewiewerPropertyContext);
+    }class _questEventPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return medizin.client.managed.request.QuestionEventProxy.class; }
+      public void set(Object obj) { 
+        values.put("questEvent", obj);
+      }
+    }
+    {_questEventPropertyContext _questEventPropertyContext = new _questEventPropertyContext();
+      com.google.gwt.autobean.shared.impl.AbstractAutoBean value = (com.google.gwt.autobean.shared.impl.AbstractAutoBean) com.google.gwt.autobean.shared.AutoBeanUtils.getAutoBean(as().getQuestEvent());
+      if (visitor.visitReferenceProperty("questEvent", value, _questEventPropertyContext))
+        if (value != null) { value.traverse(visitor, ctx); }
+      visitor.endVisitReferenceProperty("questEvent", value, _questEventPropertyContext);
+    }class _previousVersionPropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return medizin.client.managed.request.QuestionProxy.class; }
+      public void set(Object obj) { 
+        values.put("previousVersion", obj);
+      }
+    }
+    {_previousVersionPropertyContext _previousVersionPropertyContext = new _previousVersionPropertyContext();
+      com.google.gwt.autobean.shared.impl.AbstractAutoBean value = (com.google.gwt.autobean.shared.impl.AbstractAutoBean) com.google.gwt.autobean.shared.AutoBeanUtils.getAutoBean(as().getPreviousVersion());
+      if (visitor.visitReferenceProperty("previousVersion", value, _previousVersionPropertyContext))
+        if (value != null) { value.traverse(visitor, ctx); }
+      visitor.endVisitReferenceProperty("previousVersion", value, _previousVersionPropertyContext);
+    }class _questionTypePropertyContext implements com.google.gwt.autobean.shared.AutoBeanVisitor.PropertyContext {
+      public boolean canSet() { return true; }
+      public Class<?> getType() { return medizin.client.managed.request.QuestionTypeProxy.class; }
+      public void set(Object obj) { 
+        values.put("questionType", obj);
+      }
+    }
+    {_questionTypePropertyContext _questionTypePropertyContext = new _questionTypePropertyContext();
+      com.google.gwt.autobean.shared.impl.AbstractAutoBean value = (com.google.gwt.autobean.shared.impl.AbstractAutoBean) com.google.gwt.autobean.shared.AutoBeanUtils.getAutoBean(as().getQuestionType());
+      if (visitor.visitReferenceProperty("questionType", value, _questionTypePropertyContext))
+        if (value != null) { value.traverse(visitor, ctx); }
+      visitor.endVisitReferenceProperty("questionType", value, _questionTypePropertyContext);
+    }}
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.header{
+		background-color: #BFD6C3;
+		padding: 3px;
+		valign: top;
+	}
+	
+		.headerIcon{
+		background-color: #BFD6C3;
+	
+padding: 3px;
+
+	}
+	.answers{
+		background-color: #E4F2E7;
+		width: 100%;
+		padding: 10px 5px 5px 5px;
+	}
+	.question{
+		width: 100%;
+
+	}
+	.questionTable{
+		width: 100%;	
+		
+		-moz-border-radius:5px; /* Firefox */
+		-webkit-border-radius:5px; /* Safari, Chrome */
+		-khtml-border-radius:5px; /* Konqueror */
+		border-radius:5px; /* CSS3 */
+
+	}
+			.detailsTablePanel{
+			padding: 3px;
+			background-color: #E4F2E7;
+			}
+		.fill{
+	cursor: pointer;
+
+	}
+		.label {
+      min-height: 25px;
+      font-weight: bold;
+    }
+    		.questionDetails{
+		width: 100%;
+		background-color: #E4F2E7;
+				border-top: 1px solid #BFD6C3;
+
+		}
+	
+	</ui:style>
+	<g:HTMLPanel  styleName="{style.question}">
+
+		<table  class="{style.questionTable}" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="20px"  class="{style.headerIcon}" valign="top">
+					<g:Label styleName="ui-icon ui-icon-triangle-1-e {style.fill}" ui:field="twistieOpen"></g:Label>
+						<g:Label styleName="ui-icon ui-icon-triangle-1-s {style.fill}" ui:field="twistieClose"></g:Label>
+				</td>
+				<td width="100%"  class="{style.header}" valign="top">
+					<g:Label ui:field="header"></g:Label>
+				</td>
+				<td  class="{style.headerIcon}" valign="top">
+					<g:Label styleName="ui-icon ui-icon-closethick {style.fill}" ui:field="deleteFromAssesment"></g:Label>
+					<g:Label styleName="ui-icon ui-icon-plusthick {style.fill}" ui:field="addToAssesment"></g:Label>
+				</td>
+			</tr>
+		</table>
+
+
+		<g:VerticalPanel styleName="{style.answers}" ui:field="answers">
+
+		</g:VerticalPanel>
+		
+		<g:HTMLPanel  ui:field="detailsTablePanel" visible="false" styleName="{style.detailsTablePanel}">
+		<table class="{style.questionDetails}">
+		      <tr id="questEvent">
+                <td style="width: 100px;">
+                    <span class="{style.label}">Themenbereich:</span>
+                </td>
+                <td style="width: 50%;">
+                    <span ui:field="questEvent"/>
+                </td>
+                <td style="width: 100px;">
+                    <span class="{style.label}">Fragentyp:</span>
+                </td>
+                <td style="width: 50%;">
+                    <span ui:field="questionType"/>
+                </td>
+
+      <tr id="rewiewer">
+                <td>
+                    <span class="{style.label}">Reviewer:</span>
+                </td>
+                <td>
+                    <span ui:field="rewiewer"/>
+                </td>
+
+                <td>
+                    <span class="{style.label}">Autor:</span>
+                </td>
+                <td>
+                    <span ui:field="autor"/>
+                </td>
+            </tr>
+            
+            </tr>
+			     <tr id="keywords">
+                <td>
+                    <span class="{style.label}">Keywords:</span>
+                </td>
+                <td collspan="3">
+                    <span ui:field="keywords"/>
+                </td>
+            </tr>
+      <tr id="comment" >
+                <td>
+                    <span class="{style.label}">Kommentar:</span>
+                </td>
+                <td collspan="3">
+                    <span ui:field="comment"/>
+                </td>
+            </tr>
+
+		</table>
+	</g:HTMLPanel></g:HTMLPanel>
+</ui:UiBinder> 

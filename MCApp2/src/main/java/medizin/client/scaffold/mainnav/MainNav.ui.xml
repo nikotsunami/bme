@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+		.navList {
+			border-right: 1px solid #ddf;
+			height: 100%;
+			width: 100%;
+			outline: none;
+		}
+	</ui:style>
+	<g:HTMLPanel styleName='{style.navList}'>
+
+	<g:DisclosurePanel >
+	             <g:header size='20'>Fragen administrieren</g:header>
+                <g:Anchor ui:field="fragenVerwalten">Fragen verwalten</g:Anchor>
+	</g:DisclosurePanel>
+
+
+		Hello,
+		<g:Button styleName="{style.important}" ui:field="button" />
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

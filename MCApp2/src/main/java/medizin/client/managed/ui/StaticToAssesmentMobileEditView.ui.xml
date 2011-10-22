@@ -1,0 +1,32 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:d='urn:import:com.google.gwt.user.datepicker.client'
+  xmlns:r='urn:import:medizin.client.scaffold.ui'
+  xmlns:a='urn:import:medizin.client.managed.ui'>
+  <ui:style>
+    .outer {
+      padding: 10px;
+    }
+    .error {
+      padding-left: 0.5em;
+      background-color: red;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .value {
+      padding-bottom: 10px;
+    }
+  </ui:style>
+ 
+  <g:HTMLPanel id="boundElementHolder" styleName='{style.outer}'>
+    <div ui:field='errors' class='{style.error}'></div>
+    
+    <div id='sortOrder'><div class='{style.label}'>Sort Order</div><div class='{style.value}'><g:IntegerBox ui:field='sortOrder'/></div></div>
+    <div id='staticContent'><div class='{style.label}'>Static Content</div><div class='{style.value}'><g:ValueListBox ui:field='staticContent'/></div></div>
+    <div id='assesment'><div class='{style.label}'>Assesment</div><div class='{style.value}'><g:ValueListBox ui:field='assesment'/></div></div>
+
+    <g:Button ui:field='save'>Save</g:Button>
+  </g:HTMLPanel>
+</ui:UiBinder>
